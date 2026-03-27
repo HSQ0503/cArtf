@@ -1,0 +1,26 @@
+/* navbar toggler */
+input#nav-toggle:checked + label #show-button {
+  @apply hidden;
+}
+input#nav-toggle:checked + label #hide-button {
+  @apply block;
+}
+
+#nav-menu {
+  @apply transition-all ease-in-out duration-500 overflow-hidden max-lg:max-h-0 max-lg:opacity-0;
+}
+input#nav-toggle:checked ~ #nav-menu {
+  @apply max-lg:opacity-100 max-lg:max-h-[500px];
+}
+input#nav-toggle:not(:checked) ~ #nav-menu {
+  @apply max-lg:opacity-0  max-lg:max-h-0;
+}
+
+/* swiper pagination */
+.swiper-pagination-bullet {
+  @apply !h-2.5 !w-2.5 !bg-primary/10 !opacity-100;
+}
+
+.swiper-pagination-bullet-active {
+  @apply !h-4 !w-4 !bg-primary;
+}

@@ -1,0 +1,165 @@
+{
+  "categories": [
+    {
+      "slug": "eyes",
+      "name": "Eyes",
+      "description": "Master eye shapes, irises, reflections, and expressions that bring your characters to life.",
+      "image": "/images/titlecards/eyes.webp",
+      "videos": [
+        {
+          "id": "eyes-1",
+          "title": "How to Draw Realistic Eyes - Complete Guide",
+          "description": "A step-by-step walkthrough covering iris structure, light reflections, eyelash flow, and how to make eyes feel alive in your digital paintings.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "eyes-2",
+          "title": "Anime Eyes - From Basic to Advanced",
+          "description": "Learn how to draw expressive anime eyes with proper proportions, highlights, and color techniques that convey emotion.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "eyes-3",
+          "title": "Common Eye Drawing Mistakes and How to Fix Them",
+          "description": "Identify and correct the most frequent mistakes artists make when drawing eyes, from symmetry issues to unnatural highlights.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        }
+      ]
+    },
+    {
+      "slug": "skin",
+      "name": "Skin",
+      "description": "Learn skin rendering, undertones, blending techniques, and how to paint realistic skin.",
+      "image": "/images/titlecards/skin.jpeg",
+      "videos": [
+        {
+          "id": "skin-1",
+          "title": "Skin Rendering Fundamentals",
+          "description": "Understand the basics of skin tones, subsurface scattering, and how light interacts with skin for realistic digital painting.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "skin-2",
+          "title": "Painting Diverse Skin Tones",
+          "description": "A deep dive into rendering various skin tones with accurate undertones, highlights, and shadow colors.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        }
+      ]
+    },
+    {
+      "slug": "hair",
+      "name": "Hair",
+      "description": "Understand how anime and realistic hair strands work, plus shading and flow techniques.",
+      "image": "/images/titlecards/hair.jpg",
+      "videos": [
+        {
+          "id": "hair-1",
+          "title": "Drawing Hair Flow and Volume",
+          "description": "Learn how to construct hair with natural flow, volume, and movement using simple shapes and strand grouping.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "hair-2",
+          "title": "Anime Hair Shading Techniques",
+          "description": "Master the cel-shaded and soft-shaded approaches to anime hair, including highlight placement and color choices.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        }
+      ]
+    },
+    {
+      "slug": "face-proportions",
+      "name": "Face Proportions",
+      "description": "Get the fundamentals of facial structure, feature placement, and anime vs. realistic styles.",
+      "image": "/images/titlecards/face.jpg",
+      "videos": [
+        {
+          "id": "face-1",
+          "title": "Face Proportions - The Loomis Method",
+          "description": "A beginner-friendly breakdown of the Loomis head construction method for drawing faces from any angle.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "face-2",
+          "title": "Anime vs. Realistic Face Proportions",
+          "description": "Compare and contrast how anime and realistic styles handle facial proportions, and learn to switch between them.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        }
+      ]
+    },
+    {
+      "slug": "fabric",
+      "name": "Fabric",
+      "description": "Learn how cloth folds, drapes, and wrinkles work to make clothing look natural.",
+      "image": "/images/titlecards/fabric.jpg",
+      "videos": [
+        {
+          "id": "fabric-1",
+          "title": "Understanding Fabric Folds",
+          "description": "The seven types of fabric folds explained with clear examples and exercises to practice drawing natural-looking cloth.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "fabric-2",
+          "title": "Painting Cloth and Drapery",
+          "description": "Techniques for rendering different fabric materials — silk, cotton, leather — with convincing texture and weight.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        }
+      ]
+    },
+    {
+      "slug": "colors",
+      "name": "Colors",
+      "description": "Explore color theory, palette selection, and how to pick colors that work together.",
+      "image": "/images/titlecards/colors.webp",
+      "videos": [
+        {
+          "id": "colors-1",
+          "title": "Color Theory for Digital Artists",
+          "description": "A practical guide to color relationships, temperature, saturation, and how to build harmonious palettes for your art.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "colors-2",
+          "title": "How to Pick Colors That Work",
+          "description": "Stop guessing — learn systematic approaches to color selection that professional artists use in their workflow.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        }
+      ]
+    },
+    {
+      "slug": "lighting",
+      "name": "Lighting",
+      "description": "Understand light sources, shadows, ambient occlusion, and how light affects every surface.",
+      "image": "/images/titlecards/lighting.jpg",
+      "videos": [
+        {
+          "id": "lighting-1",
+          "title": "Lighting Fundamentals for Artists",
+          "description": "Core concepts of light direction, shadow casting, bounce light, and ambient occlusion explained for digital painters.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        },
+        {
+          "id": "lighting-2",
+          "title": "Dramatic Lighting and Mood",
+          "description": "Learn how to use rim lighting, backlighting, and color temperature to create mood and atmosphere in your illustrations.",
+          "youtubeId": "dQw4w9WgXcQ",
+          "artist": "Placeholder Artist"
+        }
+      ]
+    }
+  ]
+}

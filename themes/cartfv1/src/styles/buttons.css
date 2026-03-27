@@ -1,0 +1,7 @@
+.btn-solid {
+  @apply bg-primary/90 hover:bg-primary border-primary! text-white transition-all! duration-300;
+}
+
+.btn-outline {
+  @apply bg-white/15 backdrop-blur-sm text-white border-white/40! hover:bg-white/25 hover:border-white/60! transition-all! duration-300;
+}

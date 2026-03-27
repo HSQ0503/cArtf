@@ -1,0 +1,16 @@
+@utility btn {
+  @apply inline-block rounded-full px-8 py-4.5 text-sm! border border-border font-semibold capitalize transition duration-500 cursor-pointer;
+}
+
+@utility btn-lg {
+  @apply px-6 py-3 font-bold text-sm! inline-block rounded-full border capitalize transition duration-500 cursor-pointer;
+}
+
+/* form style */
+@utility form-input {
+  @apply w-full rounded-[60px] border border-border p-4 text-text-dark text-sm focus:border-secondary focus:ring-transparent placeholder:text-text-light/80;
+}
+
+@utility form-label {
+  @apply mb-3 block text-sm lg:text-xs font-semibold text-text-dark;
+}

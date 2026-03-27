@@ -1,0 +1,76 @@
+{
+  "main": [
+    {
+      "name": "Explore",
+      "url": "/explore"
+    },
+    {
+      "name": "Pathway",
+      "url": "/pathways"
+    },
+    {
+      "name": "Draw It Yourself",
+      "url": "/draw-it-yourself"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Pages",
+      "children": [
+        {
+          "name": "Explore",
+          "url": "/"
+        },
+        {
+          "name": "Pathway",
+          "url": "/pathways"
+        },
+        {
+          "name": "Draw It Yourself",
+          "url": "/draw-it-yourself"
+        },
+        {
+          "name": "About",
+          "url": "/about"
+        }
+      ]
+    },
+    {
+      "title": "Skill Categories",
+      "children": [
+        {
+          "name": "Eyes",
+          "url": "/explore/eyes"
+        },
+        {
+          "name": "Skin",
+          "url": "/explore/skin"
+        },
+        {
+          "name": "Hair",
+          "url": "/explore/hair"
+        },
+        {
+          "name": "Face Proportions",
+          "url": "/explore/face-proportions"
+        },
+        {
+          "name": "Fabric",
+          "url": "/explore/fabric"
+        },
+        {
+          "name": "Colors",
+          "url": "/explore/colors"
+        },
+        {
+          "name": "Lighting",
+          "url": "/explore/lighting"
+        }
+      ]
+    }
+  ]
+}

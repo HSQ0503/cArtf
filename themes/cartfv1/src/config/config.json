@@ -1,0 +1,50 @@
+{
+  "site": {
+    "title": "cArtf - Learn Real Art, Not Just Prompts",
+    "base_url": "https://cartf.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/favicon.ico",
+    "logo": "",
+    "logo_footer": "",
+    "logo_width": "189",
+    "logo_height": "39",
+    "logo_text": "cArtf"
+  },
+
+  "settings": {
+    "sticky_header": true,
+    "contact_bar": false,
+    "pagination": 6,
+    "summary_length": 200
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "footer_text": "Curated digital art tutorials for artists who want to learn real skills. No AI shortcuts.",
+    "copyright": "Copyright © 2025 cArtf. All Rights Reserved"
+  },
+
+  "contact": {
+    "phone": "",
+    "email": "",
+    "address": ""
+  },
+
+  "navigation_button": {
+    "enable": false,
+    "label": "",
+    "link": ""
+  },
+
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  },
+
+  "metadata": {
+    "meta_author": "FeiFei",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Curated digital art tutorials - learn real rendering techniques, not just prompts"
+  }
+}
