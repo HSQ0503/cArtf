@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
-    const data = getTutorials();
+    const data = await getTutorials();
     return NextResponse.json(data);
   } catch {
     return NextResponse.json(
@@ -13,10 +13,26 @@ export async function GET() {
   }
 }
 
+export async function POST(request: Request) {
+  try {
+    const { password } = await request.json();
+    if (password !== process.env.ADMIN_PASSWORD) {
+      return NextResponse.json({ error: "Invalid password" }, { status: 401 });
+    }
+    return NextResponse.json({ success: true });
+  } catch {
+    return NextResponse.json({ error: "Server error" }, { status: 500 });
+  }
+}
+
 export async function PUT(request: Request) {
+  const password = request.headers.get("x-admin-password");
+  if (password !== process.env.ADMIN_PASSWORD) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
   try {
     const data = await request.json();
-    saveTutorials(data);
+    await saveTutorials(data);
     return NextResponse.json({ success: true });
   } catch {
     return NextResponse.json(

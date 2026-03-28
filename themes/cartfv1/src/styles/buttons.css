@@ -3,5 +3,5 @@
 }
 
 .btn-outline {
-  @apply bg-white/15 backdrop-blur-sm text-white border-white/40! hover:bg-white/25 hover:border-white/60! transition-all! duration-300;
+  @apply bg-white/15 backdrop-blur-sm text-white border-white/40! hover:bg-white/25 hover:border-white/60! transition-all! duration-300 shadow-[0_2px_8px_rgba(0,0,0,0.2),inset_0_1px_0_rgba(255,255,255,0.2)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.25),inset_0_1px_0_rgba(255,255,255,0.3)];
 }

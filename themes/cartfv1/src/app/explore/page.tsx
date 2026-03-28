@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
-export default function ExplorePage() {
-  const { categories } = getTutorials();
+export default async function ExplorePage() {
+  const { categories } = await getTutorials();
 
   return (
     <>

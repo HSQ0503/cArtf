@@ -9,10 +9,10 @@ import Testimonial from "@/partials/Testimonial";
 import Button from "@/shortcodes/Button";
 import { THomepage, TTestimonial } from "@/types";
 
-export default function Home() {
+export default async function Home() {
   const homepage = getListPage("homepage/_index.md") as THomepage;
   const testimonials = getListPage("sections/testimonial.md") as TTestimonial;
-  const { categories } = getTutorials();
+  const { categories } = await getTutorials();
 
   // Pick one featured video from each category (first 4 categories)
   const featuredVideos = categories.slice(0, 4).map((cat) => ({
@@ -148,13 +148,13 @@ export default function Home() {
 
         <div className="container relative z-10 md:w-[750px] pt-28 pb-20 md:pt-0 md:pb-0">
           <h1
-            className="hero-title font-secondary text-[42px] sm:text-[52px] lg:text-[68px] xl:text-[82px] leading-[1.1] font-normal mb-6 text-center text-white [text-shadow:0_2px_30px_rgba(0,0,0,0.1)]"
+            className="hero-title font-secondary text-[42px] sm:text-[52px] lg:text-[68px] xl:text-[82px] leading-[1.1] font-normal mb-6 text-center text-white [text-shadow:0_2px_4px_rgba(0,0,0,0.3),0_4px_20px_rgba(0,0,0,0.15)]"
             dangerouslySetInnerHTML={markdownify(hero.title)}
             data-aos="hero-reveal"
             data-aos-delay="100"
           />
           <p
-            className="text-[13px] tracking-[0.3em] uppercase text-white/60 font-primary font-medium mb-6 text-center"
+            className="text-[13px] tracking-[0.3em] uppercase text-white/70 font-primary font-medium mb-6 text-center [text-shadow:0_1px_3px_rgba(0,0,0,0.3)]"
             dangerouslySetInnerHTML={markdownify(hero.subtitle)}
             data-aos="fade-up-sm"
             data-aos-delay="200"

@@ -12,7 +12,7 @@ export default async function CategoryPage({
   params: Promise<{ category: string }>;
 }) {
   const { category: slug } = await params;
-  const category = getCategoryBySlug(slug);
+  const category = await getCategoryBySlug(slug);
 
   if (!category) {
     notFound();

@@ -1,0 +1,4 @@
+
+# envs vault
+.env*
+!.envs.json

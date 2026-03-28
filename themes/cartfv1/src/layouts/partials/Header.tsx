@@ -100,7 +100,7 @@ const Header = () => {
 
         <div className="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
           <Link
-            href="/blog"
+            href="/explore"
             className="btn btn-solid relative overflow-hidden group hidden lg:inline-block px-6 py-3"
           >
             <span className="relative z-10">Explore Tutorials</span>

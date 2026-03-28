@@ -7,11 +7,11 @@
       "image": "/images/titlecards/eyes.webp",
       "videos": [
         {
-          "id": "eyes-1",
-          "title": "How to Draw Realistic Eyes - Complete Guide",
-          "description": "A step-by-step walkthrough covering iris structure, light reflections, eyelash flow, and how to make eyes feel alive in your digital paintings.",
-          "youtubeId": "dQw4w9WgXcQ",
-          "artist": "Placeholder Artist"
+          "title": "OpenClaw Killer",
+          "description": "Openclaw is dead?\n",
+          "youtubeId": "wfeiCZK0mNs",
+          "artist": "Fireship",
+          "id": "eyes-1"
         },
         {
           "id": "eyes-2",
@@ -80,16 +80,16 @@
       "image": "/images/titlecards/face.jpg",
       "videos": [
         {
-          "id": "face-1",
-          "title": "Face Proportions - The Loomis Method",
-          "description": "A beginner-friendly breakdown of the Loomis head construction method for drawing faces from any angle.",
+          "id": "face-2",
+          "title": "Anime vs. Realistic Face Proportions",
+          "description": "Compare and contrast how anime and realistic styles handle facial proportions, and learn to switch between them.",
           "youtubeId": "dQw4w9WgXcQ",
           "artist": "Placeholder Artist"
         },
         {
-          "id": "face-2",
-          "title": "Anime vs. Realistic Face Proportions",
-          "description": "Compare and contrast how anime and realistic styles handle facial proportions, and learn to switch between them.",
+          "id": "face-1",
+          "title": "Face Proportions - The Loomis Method",
+          "description": "A beginner-friendly breakdown of the Loomis head construction method for drawing faces from any angle.",
           "youtubeId": "dQw4w9WgXcQ",
           "artist": "Placeholder Artist"
         }
