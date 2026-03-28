@@ -206,7 +206,8 @@ function AdminPanel({ password }: { password: string }) {
         if (res.status === 401) {
           showToast("Session expired — please refresh", "error");
         } else if (!res.ok) {
-          showToast("Failed to save", "error");
+          const body = await res.json().catch(() => null);
+          showToast(body?.error || "Failed to save", "error");
         } else {
           setData(updated);
           showToast("Saved", "success");

@@ -34,9 +34,15 @@ export async function PUT(request: Request) {
     const data = await request.json();
     await saveTutorials(data);
     return NextResponse.json({ success: true });
-  } catch {
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    console.error("PUT /api/tutorials failed:", message);
     return NextResponse.json(
-      { error: "Failed to save tutorials" },
+      {
+        error: message,
+        hasRedisUrl: !!process.env.UPSTASH_REDIS_REST_URL,
+        hasRedisToken: !!process.env.UPSTASH_REDIS_REST_TOKEN,
+      },
       { status: 500 },
     );
   }
