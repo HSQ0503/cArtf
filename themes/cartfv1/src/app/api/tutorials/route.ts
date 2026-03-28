@@ -40,8 +40,8 @@ export async function PUT(request: Request) {
     return NextResponse.json(
       {
         error: message,
-        hasRedisUrl: !!process.env.UPSTASH_REDIS_REST_URL,
-        hasRedisToken: !!process.env.UPSTASH_REDIS_REST_TOKEN,
+        hasRedisUrl: !!(process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL),
+        hasRedisToken: !!(process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN),
       },
       { status: 500 },
     );
