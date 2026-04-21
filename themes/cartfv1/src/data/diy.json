@@ -1,0 +1,52 @@
+{
+  "videos": [
+    {
+      "id": "diy-1",
+      "title": "How to Actually Draw Ghibli-Style Characters",
+      "artist": "samdoesarts",
+      "description": "When the Ghibli AI trend exploded, Sam showed what it actually takes to draw in that style by hand — construction, color choices, and the subtlety machines miss.",
+      "youtubeId": "dQw4w9WgXcQ",
+      "size": "large"
+    },
+    {
+      "id": "diy-2",
+      "title": "Anime Portraits the Real Way",
+      "artist": "Naoki Saito",
+      "description": "A masterclass in building anime portraits from scratch with proper anatomy, proportion, and that hand-drawn warmth AI can't replicate.",
+      "youtubeId": "dQw4w9WgXcQ",
+      "size": "medium"
+    },
+    {
+      "id": "diy-3",
+      "title": "Hand-Painted vs AI: What Gets Lost",
+      "artist": "Marco Bucci",
+      "description": "An honest breakdown of what makes hand-painted art fundamentally different — the intention behind every brushstroke, the happy accidents, the soul.",
+      "youtubeId": "dQw4w9WgXcQ",
+      "size": "medium"
+    },
+    {
+      "id": "diy-4",
+      "title": "Drawing the 'AI Look' Without AI",
+      "artist": "Sinix Design",
+      "description": "That hyper-rendered, glowy look AI defaults to? It's actually a real painting technique. Learn how to do it yourself.",
+      "youtubeId": "dQw4w9WgXcQ",
+      "size": "small"
+    },
+    {
+      "id": "diy-5",
+      "title": "Why Imperfections Make Art Better",
+      "artist": "Proko",
+      "description": "The wobbly lines, the uneven shading, the asymmetry — why these 'flaws' are what make human art resonate in ways generated images never will.",
+      "youtubeId": "dQw4w9WgXcQ",
+      "size": "medium"
+    },
+    {
+      "id": "diy-6",
+      "title": "Speed Paint Challenge: Can a Human Beat AI?",
+      "artist": "Jazza",
+      "description": "A fun, high-energy challenge comparing hand-painted speed with AI generation — and why the journey matters more than the result.",
+      "youtubeId": "dQw4w9WgXcQ",
+      "size": "large"
+    }
+  ]
+}

@@ -210,42 +210,31 @@ export default async function Home() {
               data-aos-delay="100"
             />
             <div className="columns-2 md:columns-3 lg:columns-4 gap-5 lg:gap-6">
-              {explore_menu.items.map((item, i: number) => {
-                const aspects = [
-                  "aspect-[3/4]",
-                  "aspect-[2/3]",
-                  "aspect-[4/5]",
-                  "aspect-[3/4]",
-                  "aspect-[3/4]",
-                  "aspect-[5/6]",
-                  "aspect-[4/5]",
-                ];
-                return (
-                  <a
-                    key={i}
-                    href={item.link}
-                    className="block break-inside-avoid mb-5 lg:mb-6 group"
-                    data-aos="fade-up-sm"
-                    data-aos-delay={100 + i * 50}
-                  >
-                    <div className="overflow-hidden rounded-xl">
-                      <ImageFallback
-                        src={item.image}
-                        alt={item.name}
-                        width={400}
-                        height={500}
-                        className={`w-full object-cover ${aspects[i % aspects.length]} transition-transform duration-500 group-hover:scale-105`}
-                      />
-                    </div>
-                    <h3 className="font-secondary font-bold text-text-dark mt-3 text-base">
-                      {item.name}
-                    </h3>
-                    <p className="text-text-light text-xs tracking-[0.15em] uppercase mt-0.5">
-                      {item.tutorials} TUTORIALS
-                    </p>
-                  </a>
-                );
-              })}
+              {explore_menu.items.map((item, i: number) => (
+                <a
+                  key={i}
+                  href={item.link}
+                  className="block break-inside-avoid mb-5 lg:mb-6 group"
+                  data-aos="fade-up-sm"
+                  data-aos-delay={100 + i * 50}
+                >
+                  <div className="overflow-hidden rounded-xl">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      loading="lazy"
+                      className="w-full h-auto block transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                  <h3 className="font-secondary font-bold text-text-dark mt-3 text-base">
+                    {item.name}
+                  </h3>
+                  <p className="text-text-light text-xs tracking-[0.15em] uppercase mt-0.5">
+                    {item.tutorials} TUTORIALS
+                  </p>
+                </a>
+              ))}
             </div>
           </div>
         </section>
